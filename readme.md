@@ -75,9 +75,9 @@ css structuur volgt html-
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:**  rood 
+**Je startniveau:**  blauw 
 
-**Je focus:** responsive
+**Je focus:** surface plane
 
 **Je opdracht:** https://keijzeg.github.io/blokweb/
 
