@@ -66,7 +66,9 @@ css structuur volgt html-
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img src="images/mainscr.png" alt="website van premier league">
+
+<img src="images/tablescr.png" alt="website van premier league">
 
 
 
@@ -79,10 +81,7 @@ css structuur volgt html-
 
 **Je opdracht:** https://keijzeg.github.io/blokweb/
 
-**Screenshot(s) van de eerste pagina (small screen):**
+**Screenshot van de website (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/bothscr.png" alt="website van premier league">
 
-**Screenshot(s) van de tweede pagina (small screen):**
-
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
