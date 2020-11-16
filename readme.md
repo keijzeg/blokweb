@@ -54,6 +54,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 | an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+### week 2
+elementen houden geen rekening met absolute elementen, absolute = uit de flow
+
 ### Verslag van meeting
 
 -elke section en article moet een heading bevatten, want dan is het te begrijpen voor google en text to speech (voor slechtzienden)
