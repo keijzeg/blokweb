@@ -3,3 +3,60 @@
   box-sizing:border-box;  
 }
 
+body {
+    background-color: aqua;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    color: aliceblue;
+    padding: 
+}
+
+#top {
+    background-color: blueviolet;
+}
+
+img {
+    height: 25vw;
+    width: 40vw;
+}
+
+h2, h3, h4 {
+    display: inline;
+    font-family: sans-serif;
+}
+
+h2 {
+    vertical-align: middle;
+}
+
+h4 {
+    color: lawngreen;
+}
+
+#featured {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#groot {
+    height: 50vw;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#niet, h2 {
+    display: flex;
+    font-family: sans-serif;
+}
+
+
+
