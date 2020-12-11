@@ -1,62 +1,26 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
 body {
-    background-color: aqua;
-    color: white
+    font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+#buttons {
+    display: flex;
+    justify-content: center;
 }
 
 button {
-    color: aliceblue;
-    padding: 
+    font-size: 3.5vw;
+    border: none;
+    color: white;
+    background-color: hotpink;
+    border-radius: 0.5vw;
+    padding: 1vw 10vw;
 }
 
-#top {
-    background-color: blueviolet;
+button.active {
+    font-size: 3.5vw;
+    border-color: black;
+    color: black;
+    background-color: white;
+    border-radius: 0.5vw;
+    padding: 1vw 10vw;
 }
-
-img {
-    height: 25vw;
-    width: 40vw;
-}
-
-h2, h3, h4 {
-    display: inline;
-    font-family: sans-serif;
-}
-
-h2 {
-    vertical-align: middle;
-}
-
-h4 {
-    color: lawngreen;
-}
-
-#featured {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#groot {
-    height: 50vw;
-    width: 90vw;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-#niet, h2 {
-    display: flex;
-    font-family: sans-serif;
-}
-
-
-
