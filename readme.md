@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+opnieuw begonnen met website, omdat m'n code een puinhoop was
 
 
 
@@ -45,6 +45,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
 ### Agenda voor meeting
+
+svg zeer handig voor achtergronden. extensie nodig voor het zien van huisstijl
 
 | Denzel | Gerrit | Jessie | Micky | Cesar |
 | --- | --- | --- | --- | --- |
