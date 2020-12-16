@@ -1,26 +1,156 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    font-size: 3vw
 }
 
+body a {
+    text-decoration: none;
+}
+
+/* opmaak voor de bovenstaande knoppen*/ 
 #buttons {
     display: flex;
     justify-content: center;
+    background: white;
+    padding: 5vw 1vw;
 }
 
 button {
-    font-size: 3.5vw;
+    font-size: 4vw;
     border: none;
     color: white;
     background-color: hotpink;
     border-radius: 0.5vw;
-    padding: 1vw 10vw;
+    padding: 3vw 15vw;
 }
 
 button.active {
-    font-size: 3.5vw;
-    border-color: black;
+    font-size: 4vw;
+    border-width: 3px;
+    border-color: hotpink;
     color: black;
     background-color: white;
     border-radius: 0.5vw;
-    padding: 1vw 10vw;
+    padding: 3vw 15vw;
 }
+
+/* opmaak voor de nieuwspagina*/
+
+/*source = https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content*/ 
+#news.hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#topnews {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 7vw
+}
+
+#topnews h2 {
+    color: white;
+    padding-left: 5vw;
+    font-size: 4vw;
+}
+
+#topnews h3 {
+    color: white;
+    font-size: 4vw;
+    padding-left: 2vw;
+}
+
+#greentext {
+    color: springgreen;
+    font-style: italic;
+    font-size: 3vw;
+    padding-left: 2vw;
+}
+
+#featuredtopart {
+    background-color: rebeccapurple;
+    width: 90vw;
+    font-size: 6vw;
+}
+
+#featuredtopart p{
+    padding-left: 2vw;
+}
+
+#featueredtopimg {
+    width: 90vw;
+    text-align: center;
+}
+
+img {
+    width: 40vw;
+}
+
+.niet {
+    width: 90vw;
+    display: flex;
+    background-color: rebeccapurple;
+    margin-top: 1vw;
+    align-items: center
+}
+
+.niet h3 {
+    padding-left: 2vw;
+}
+
+
+/* opmaak voor het wedstrijd- en competitie overzicht*/
+
+/*source = https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content*/ 
+#matches.hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#matches {
+    background-color: white;
+}
+
+#results h2{
+    text-align: center;
+    color: hotpink;
+}
+
+#results p{
+    text-align: center;    
+}
+
+
+#results time {
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-left: 0.5rem;
+    font-size: 1.0rem;
+    
+}
+
+#results img {
+    height: 1.5rem;
+    width: 100%;
+}
+
+
+

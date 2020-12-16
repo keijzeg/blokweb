@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
-opnieuw begonnen met website, omdat m'n code een puinhoop was
+-same as voortgang 1-
 
 
 
@@ -46,16 +46,13 @@ opnieuw begonnen met website, omdat m'n code een puinhoop was
 
 ### Agenda voor meeting
 
-svg zeer handig voor achtergronden. extensie nodig voor het zien van huisstijl
+-samen met je groepje opstellen-
 
-| Denzel | Gerrit | Jessie | Micky | Cesar |
-| --- | --- | --- | --- | --- |
-|Selectoren |De dingen die ik wil uitwerken|Background-image|Breakdown schetsen|Desktop V1 ipv Telefoon V1|
-|Navigatie |De uitbreiding naar responsive|Transitions tussen fixed en relative header op scrol|Flexbox|Alle content?|
-|Orginele website aanpassen|Hoe neem ik huisstijl over|svg image|Lettertypes|Image size, Voorbeeld vorig jaar|
-
-### week 2
-elementen houden geen rekening met absolute elementen, absolute = uit de flow
+| student 1      | student 2          | student 3    | student 4        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
@@ -78,9 +75,9 @@ css structuur volgt html-
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:**  blauw 
+**Je startniveau:**  rood 
 
-**Je focus:** surface plane
+**Je focus:** responsive
 
 **Je opdracht:** https://keijzeg.github.io/blokweb/
 
