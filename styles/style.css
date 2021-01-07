@@ -2,13 +2,70 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: blueviolet;
+    background-color: hotpink;
     box-sizing: border-box;
-    font-size: 3vw
 }
+
 
 body a {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+h3, h2, h4 {
+    font-weight: 400
+}
+
+/* opmaak voor de header*/ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 1rem 1rem;
+    width: 100%;
+    top: 0;
+    position: fixed
+}
+
+header img {
+    height: 2.5rem;
+    width: 7rem
+}
+nav ul {
+    display: flex;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+nav ul li {
+    padding: 0 1rem 0 1rem
+}
+
+nav ul li:nth-of-type(2) {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+nav ul li p{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: .25rem;
+    padding: 0;
+}
+
+nav ul li img{
+    width: 1.5rem;
+    height: 1.5rem
 }
 
 /* opmaak voor de bovenstaande knoppen*/ 
@@ -16,32 +73,32 @@ body a {
     display: flex;
     justify-content: center;
     background: white;
-    padding: 5vw 1vw;
+    padding: 1rem 1rem;
+    margin-top: 4.5rem
 }
 
 button {
-    font-size: 4vw;
+    font-size: 1rem;
     border: none;
     color: white;
     background-color: hotpink;
-    border-radius: 0.5vw;
-    padding: 3vw 15vw;
+    border-radius: 0.2rem;
+    padding: .7rem 3rem;
 }
 
 button.active {
-    font-size: 4vw;
-    border-width: 3px;
-    border-color: hotpink;
+    font-size: 1rem;
+    border: 1px solid black;
     color: black;
     background-color: white;
     border-radius: 0.5vw;
-    padding: 3vw 15vw;
+    padding: .7rem 3rem;
 }
 
 /* opmaak voor de nieuwspagina*/
 
 /*source = https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content*/ 
-#news.hidden {
+.hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -49,7 +106,7 @@ button.active {
     position: absolute;
     white-space: nowrap;
     width: 1px;
-}
+}/*tot hier*/
 
 #topnews {
     background-color: turquoise;
@@ -57,32 +114,31 @@ button.active {
     flex-direction: column;
     align-items: center;
     color: white;
-    padding-bottom: 7vw
+    padding-bottom: 2rem
 }
 
 #topnews h2 {
     color: white;
-    padding-left: 5vw;
-    font-size: 4vw;
+    font-size: 1rem;
 }
 
 #topnews h3 {
     color: white;
-    font-size: 4vw;
-    padding-left: 2vw;
+    font-size: 1rem;
+    padding-left: .5rem;
 }
 
 #greentext {
     color: springgreen;
     font-style: italic;
-    font-size: 3vw;
-    padding-left: 2vw;
+    font-size: .8rem;
+    padding-left: .5rem;
 }
 
 #featuredtopart {
     background-color: rebeccapurple;
     width: 90vw;
-    font-size: 6vw;
+    font-size: 1.2rem;
 }
 
 #featuredtopart p{
@@ -95,38 +151,110 @@ button.active {
 }
 
 img {
-    width: 40vw;
+    width: 10rem;
 }
 
-.niet {
+.featuredimages {
     width: 90vw;
     display: flex;
     background-color: rebeccapurple;
     margin-top: 1vw;
-    align-items: center
+    align-items: center;
 }
 
-.niet h3 {
-    padding-left: 2vw;
+#latestnews, #fplnews {
+    background-color: white;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid lightgrey;
 }
 
+#latestnews h2, #fplnews h2{
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 1rem 1rem .5rem 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#latestnews article, #fplnews article{
+    display: flex;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#latestnews article:last-of-type, #fplnews article:last-of-type{
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+#latestnews article img#fplnews article img{
+    width: 10rem;
+    height: 7rem;
+    padding-right: 1rem
+}
+
+#latestnews article ul, #fplnews article ul {
+    padding: 0 1rem 0 1rem;
+    margin: 0;
+}
+
+#latestnews article p, #fplnews article p{
+    color: deeppink;
+    font-size: .8rem;
+    font-style: italic;
+    margin: .6rem 0 0 0;
+}
+
+#latestnews article h3, #fplnews article h3 {
+    font-size: 1.1rem;
+    margin-top: .5rem
+}
+
+#ad1 {
+    background-image: url('../images/KOTM.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ad1 button {
+    background-color: deeppink;
+    height: 3rem;
+}
 
 /* opmaak voor het wedstrijd- en competitie overzicht*/
 
-/*source = https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content*/ 
-#matches.hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+#matches {
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#matches {
-    background-color: white;
+#matches h2 {
+    font-size: 1rem
 }
+
+#results {
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#topbanner{
+    width: 8rem;
+    align-self: center;
+}
+
 
 #results h2{
     text-align: center;
@@ -138,18 +266,204 @@ img {
 }
 
 
-#results time {
-    display: block;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+#results h3 {
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+#results article{
     padding-left: 0.5rem;
-    font-size: 1.0rem;
+    display: flex;
+    height: 1.3rem;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.3rem; 
+    margin-top: .3rem
+
+}
+
+#results article p{
+    height: 1.3rem;
+    padding-top: 5px;
+    font-size: .8rem;
+}
+
+#results article img, table img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#results article img, #results article p {
+    margin-left: 0.5rem;
+} 
+
+.viewAll {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.4rem;
+    font-size: .7rem;
+}
+
+#table {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    border-bottom: 1px solid lightgrey
+}
+
+#banner {
+    width: 8rem;
+    align-self: center;
+    margin-bottom: 1.3rem;
+}
+table {
+    background-color: white;
+    width: 100%;
+    padding-left: .6rem
+}
+
+#table h3 {
+    color: black;
+    margin-bottom: .6rem;
+    font-size: 1rem;
+}
+
+th {
+    color: darkgrey;
+    font-size: 0.7rem;
+}
+
+td {
+    padding: .5rem;
+    border-bottom: 1px solid darkgrey;
+}
+
+tr {
+    font-size: .9rem;
+}
+
+table img {
+    margin-right: 5px
+}
+
+#table .viewAll {
+    align-self: flex-end;
+}
+
+#topPerformers {
+    background-color: white;
+}
+
+#topPerformers article {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 1rem;
+}
+#topPerformers h3{
+    text-align: center;
+    font-size: 1.01rem;
+    margin-bottom: .4rem;
+}
+
+#topPerformers h4{
+    font-size: 1.01rem;
+    margin-bottom: .4rem;
+    padding-left: 1rem;
+    margin-top: .5rem
+}
+
+
+.playerbanner {
+    background-color: mediumpurple;
+    background-image: url('https://resources.premierleague.com/premierleague/photos/players/110x140/p98980.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 1.5rem 0 1.5rem 1.5rem
+}
+
+.flag {
+    width: 2rem
+}
+
+.playerbanner h5 {
+    color: white;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.playerbanner p {
+    color: white;
+    font-size: .9rem;
+    font-style: italic;
+    margin: .5em 0 .5em 0;
     
 }
 
-#results img {
-    height: 1.5rem;
-    width: 100%;
+#topPerformers article ul {
+    padding: 0 1rem
+}
+
+#topPerformers article ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+}
+
+#topPerformers article ul li p {
+    padding: 0;
+    font-size: .8rem;
+}
+
+img.club {
+    width: .8rem
+}
+
+#topPerformers article:nth-of-type(2) .playerbanner{
+    background-color: mediumpurple;
+    background-image: url('https://resources.premierleague.com/premierleague/photos/players/110x140/man46436.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 1.5rem 0 1.5rem 1.5rem
+    
+}
+
+#ad2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#ad2 img {
+    padding-top: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+#ad2 p {
+    font-size: .8rem;
+    color: gray;
+}
+
+footer {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    margin: 1rem 4rem;
+    color: white;
+}
+
+footer ul li {
+    padding: .8rem 0 0 0;
 }
 
 
