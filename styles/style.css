@@ -74,7 +74,7 @@ nav ul li img{
     justify-content: center;
     background: white;
     padding: 1rem 1rem;
-    margin-top: 4.5rem
+    margin-top: 4.5rem;
 }
 
 button {
@@ -141,8 +141,10 @@ button.active {
     font-size: 1.2rem;
 }
 
+
 #featuredtopart p{
-    padding-left: 2vw;
+    padding-left: .5rem;
+    font-size: 1rem;
 }
 
 #featueredtopimg {
@@ -456,6 +458,7 @@ footer {
     background-color: purple;
     display: flex;
     justify-content: center;
+    flex-direction: column
 }
 
 footer ul {
@@ -467,5 +470,46 @@ footer ul li {
     padding: .8rem 0 0 0;
 }
 
+#links {
+    display: flex;
+    justify-content: center
+}
 
+/*veranderingen bij schermvergroting*/
+@media (min-width: 700px){
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 4.5rem;
+    }
+    #news {
+        width: 60vw;
+    }
+    #topnews {
+        width: 60vw;
+    }
+    #featuredtopart{
+        width: 59vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #featueredtopimg{
+        height: 15rem;
+        width: inherit;
+    }
+    .featuredimages{
+        width: 59vw;
+    }
+    #matches {
+        width: 39vw;
+        padding-right: 1vw;
+    }
+}
 
+@media (min-width: 800px){   
+    #featuredtopart{
+        width: 59vw;
+        display: flex;
+        flex-direction: row
+    }
+}
