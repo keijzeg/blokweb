@@ -23,8 +23,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 3 (week 6)
-
--same as voortgang 1-
+| Denzel | Gerrit | Jessie  | Cesar |
+| --- | --- | --- | --- | --- |
+|slimme selectoren |meerdere navs|Background-image|winkelmandje|
+|css |lists|meerdere full screen images|responsive, resolutie|
+|fonts|svg|hamburger menu|carousel|
 
 
 
@@ -40,11 +43,17 @@ namelijk een main met daarin 2 divs waarvan 1 verborgen. de tabs kunnen gebruikt
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+feedbacksessie:
+eventueel svg gebruiken voor de achtergond
+css peeper extensievoor huisstijl
+hoeft niet alles uit te werken
+
+het maken van de opdrachten verliep prima. ik herkans deze periode ook programmeren dus ben al een tijdje bezig geweest
+
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+ik moet nog beginnen met mijn eindopdracht
 
 ### Agenda voor meeting
 
