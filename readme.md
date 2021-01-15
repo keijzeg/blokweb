@@ -30,7 +30,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+opnieuw begonnen met website, omdat m'n code een puinhoop was. 
+ik heb nu een systeem gecreeerd waarin ik mijn gewenste effect.
+namelijk een main met daarin 2 divs waarvan 1 verborgen. de tabs kunnen gebruikt worden om te navigeren tussen de twee pagina's
 
 
 
