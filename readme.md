@@ -24,7 +24,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 | Denzel | Gerrit | Jessie  | Cesar |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 |slimme selectoren |meerdere navs|Background-image|winkelmandje|
 |css |lists|meerdere full screen images|responsive, resolutie|
 |fonts|svg|hamburger menu|carousel|
