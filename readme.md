@@ -6,8 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. premierleague.com/matchweek/5682/blog
+2. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content
 3. -...-
 
 
@@ -15,14 +15,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+ik had best veel moeite met het kiezen van de grootte van elementen. eerst had ik een combinatie van vw, vh en pixels. toen heb ik de pixels weggehaald en vervangen door vw en em. dit maakte de situatie erger en toen heb ik alles vervangen door rem en vw op een paar plekken.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/eind.png" alt="mobile">
+<img src="images/desktop.png" alt="desktop">
 
 
 
 ## Voortgang 3 (week 6)
+
+<img src="images/midden.png" alt="wedstrijden">
+
+tijdens dit gesprek hebben we het uitgebreid over het gebruik van articles of tables voor een wedstrijdoverzicht.
+uiteindelijk zijn we tot de conclussie gekomen dat ze allebei kunnen
+
 | Denzel | Gerrit | Jessie  | Cesar |
 | --- | --- | --- | --- |
 |slimme selectoren |meerdere navs|Background-image|winkelmandje|
@@ -37,23 +45,23 @@ opnieuw begonnen met website, omdat m'n code een puinhoop was.
 ik heb nu een systeem gecreeerd waarin ik mijn gewenste effect.
 namelijk een main met daarin 2 divs waarvan 1 verborgen. de tabs kunnen gebruikt worden om te navigeren tussen de twee pagina's
 
-
+<img src="images/begin.png" alt="begin">
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
 feedbacksessie:
-eventueel svg gebruiken voor de achtergond
-css peeper extensievoor huisstijl
-hoeft niet alles uit te werken
+eventueel svg gebruiken voor de achtergond,
+,css peeper extensievoor huisstijl
+,hoeft niet alles uit te werken
 
 het maken van de opdrachten verliep prima. ik herkans deze periode ook programmeren dus ben al een tijdje bezig geweest
 
 
 **Screenshot(s):**
 
-ik moet nog beginnen met mijn eindopdracht
+ik moet nog beginnen met mijn eindopdracht...
 
 ### Agenda voor meeting
 
@@ -87,13 +95,14 @@ css structuur volgt html-
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:**  rood 
+**Je startniveau:**  blauw
 
-**Je focus:** responsive
+**Je focus:** surface plane
 
 **Je opdracht:** https://keijzeg.github.io/blokweb/
 
 **Screenshot van de website (small screen):**
 
 <img src="images/bothscr.png" alt="website van premier league">
+
 
