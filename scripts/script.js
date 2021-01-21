@@ -3,6 +3,9 @@ var latestButton = document.querySelector('#latestknop') ;
 var matchesButton = document.querySelector('#matchesknop');
 var buttonSection = document.querySelector('#buttons');
 
+var searchButton = document.querySelector('#searchbutton')
+var searchForm = document.querySelector('#search')
+
 var news = document.querySelector('#news');
 var matches = document.querySelector('#matches');
 
@@ -23,7 +26,9 @@ function weergeefMatches(  ) {
     document.querySelector('#matches').classList.remove('hidden');
     document.querySelector('#news').classList.add('hidden');
 }
-
+function weergeefSearch( ) {
+    searchForm.classList.toggle('show')
+}
 function handleTabletChange(e) {
   // Check if the media query is true
   if (e.matches) {
@@ -44,6 +49,7 @@ function handleTabletChange(e) {
 // eventListeners
 latestButton.addEventListener('click', weergeefLatest);
 matchesButton.addEventListener('click', weergeefMatches);
+searchButton.addEventListener('click', weergeefSearch)
 mediaQuery.addListener(handleTabletChange)
 
 handleTabletChange(mediaQuery)
