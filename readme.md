@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.premierleague.com/home
 2. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content
-3. -...-
+3. https://css-tricks.com/working-with-javascript-media-queries/
 
 
 
